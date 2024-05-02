@@ -1,49 +1,32 @@
-# Proyecto Devops 2023
+# Proyecto Devops 2024 - PIN2 - Mundo E
 
+## Raúl B. Netto y Gabriela Ratti
 
-Este proyecto tiene como idea principal el aprendizaje sobre distintos temas y poner en práctica lo aprendido a través de un laboratorio que permita integrar diferentes herramientas y tecnologías.
+EEste proyecto tuvo como idea principal el aprendizaje sobre distintos temas y la puesta en práctica mediante un laboratorio que permita integrar diferentes herramientas y tecnologías. Durante la primera parte nos centramos en la creación de una instancia de `EC2` en *AWS* para poder desde allí realizar todas las tareas necesarias, como montar un cluster Kubernetes, preparar un balanceador de Carga e instalar `Nginx` además de diversos Pods para monitoreo del cluster con el stack de `Prometheus` y `Grafana`
 
-Durante la  primera parte nos centramos en la creación de una instancia de `EC2` en AWS para poder desde allí realizar todas las tareas
- necesarias. 
-
-
-En la segunda parte, configuraremos monitoreo de log con el stack de  `Elastic`, `FluentBit` y `Kibana`, el cual nos permitio ver los logs 
-de nginx corriendo el el cluster 
-Por último, configuramos la part de monitoreo de pods con el stack de `prometheus` y `grafana` `Prometheus`
-
-
-
-![arquitectura](img/arquitecture.png)
+![arquitectura](assets/img/diagram.png)
 
 ## Contenido del proyecto
 
 1. Crear y configurar instancia EC2
 
-2. Configurar instancia y cliente aws
+2. Configurar instancia y cliente AWS
 
 3. Crear cluster con eksctl
 
-4. Crear cluster con terraform
+4. Configurar kubectl
 
-5. Configurar kubectl
+5. Herramientas de monitoreo
 
-6. Github Actions
 
-9. Herramientas de monitoreo
+## Reporte PIN2
+Para acceder al reporte complete ir al siguiente enlace:
 
+![Reporte](assets/reporte-pin2.pdf)
 
 # Bibliografía
 
-<!-- #  Docker Compose Examples // -->
+* https://www.youtube.com/watch?v=z6CxN7zRoPk
+* https://www.youtube.com/watch?v=AhfZxzD2g80
+* https://global-timpani-13b.notion.site/Creando-un-pacman-en-k8s-97c3de6074d04a44952c3779eeba717a
 
-<!--
-- [Compose101 Slides](https://www.slideshare.net/ajeetraina/introduction-to-docker-compose-docker-intermediate-workshop)
-- [Introduction to Docker Compose](http://dockerlabs.collabnix.com/intermediate/docker-compose/)
-- [Dockerfile Vs Docker compose ](http://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/Difference_between_dockerfile_and_docker_compose.html)
-- [How to Install Docker Compose? ](http://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/How_to_Install_Docker_Compose.html)
-
-### Kubernetes
-- [Setup AWS Free Tier](https://cloudkatha.com/how-to-setup-your-aws-free-tier-account-the-right-way/)
-
-### Monitoreo
--->
